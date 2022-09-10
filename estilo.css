@@ -89,7 +89,7 @@ body {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  column-gap: 10px;
+  gap: 50px 10px;
 }
 
 #selecaoFilme {
