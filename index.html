@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animeflix</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="container">
+      <img src="logo.png" alt="Logo Animeflix" class="logo">
+        <h1 class="page-title">
+          Animeflix
+        </h1>
+        <p class="page-subtitle">
+          Adicione seus animes/mangás favoritos aqui!
+        </p>
+        <div class="form-wrapper">
+            <input type="text" id="nome" name="nome" placeholder="Nome do anime/mangá">
+          <input type="text" id="filme" name="filme" placeholder="Endereço da capa/pôster">
+          <button onClick="adicionarFilme()" id="addBtn">Adicionar</button>
+          <button onClick="removerFilme()">Remover</button>
+        </div>
+      </div>
+      <div id="listaFilmes"></div>
+      <a href="https://alura.com.br/" target="_blank">
+        <img src="https://imersao.dev/assets/img/logo-imersao-dev-desktop.1660582173.svg" alt="" class="alura-logo">
+      </a>
+</body>
+</html>
